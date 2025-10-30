@@ -1,9 +1,11 @@
 import type { DefaultTheme } from 'vitepress';
 
-export const sidebar: DefaultTheme.Config['sidebar'] = [
+export const sidebar: DefaultTheme.Config['sidebar'] = [];
+
+const base = [
 	{
 		text: 'table',
-		items: [{ text: '表格', link: '/table/index' }],
+		items: [{ text: '表格', link: '/table/init' }],
 	},
 	{
 		text: 'columns',
