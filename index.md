@@ -4,12 +4,16 @@ layout: home
 
 hero:
     name: 'aaa'
-    text: 'bbbbb'
+    text: 'CCCCCcc'
     tagline: My great project tagline
     actions:
         - theme: brand
+          text: 菜单初始代码
+          link: /base/index
+
+        - theme: brand
           text: table
-          link: /table/index
+          link: /table/init
 
         - theme: alt
           text: modal
